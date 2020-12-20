@@ -1,0 +1,25 @@
+{
+  "name": "ac-poc-bookshelf",
+  "version": "0.0.1",
+  "description": "Create mediacontainers based on ISBN",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/admiralcloud/ac-poc-bookshelf"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Poepping",
+  "license": "MIT",
+  "dependencies": {
+    "ac-signature": "^2.0.0",
+    "axios": "^0.21.0",
+    "lodash": "^4.17.20",
+    "prompts": "^2.4.0"
+  },
+  "devDependencies": {
+    "ac-semantic-release": "^0.2.5",
+    "eslint": "^7.12.0"
+  }
+}
